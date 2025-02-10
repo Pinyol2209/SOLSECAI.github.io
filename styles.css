@@ -538,4 +538,22 @@ footer {
     .beta-container {
         padding: 1.5rem;
     }
+}
+
+.nav-logo {
+    height: 40px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Ajustamos el logo en móvil */
+@media (max-width: 768px) {
+    .nav-logo {
+        height: 30px;
+    }
 } 
